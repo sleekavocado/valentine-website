@@ -23,19 +23,19 @@ const CONFIG = {
     questions: {
         first: {
             text: "Quick question: Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
+            yesBtn: "Yes!",                                             // Text for "Yes" button
+            noBtn: "No.",                                               // Text for "No" button
             secretAnswer: "I don't like you dawg, I love you! ❤️"           // Secret hover message
         },
         second: {
             text: "And... how much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            startText: "This much:",                                   // Text before the percentage
+            nextBtn: "Next!"                                         // Text for the next button
         },
         third: {
             text: "Then... Will you be my Valentine on Feb 14th? 🥰", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            noBtn: "No."                                                 // Text for "No" button
         }
     },
 
