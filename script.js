@@ -145,11 +145,7 @@ loveMeter.addEventListener('input', () => {
     loveValue.textContent = value;
     
     if (value > 100) {
-        extraLove.classList.remove('hidden');
-        const overflowPercentage = (value - 100) / 9900;
-        const extraWidth = overflowPercentage * window.innerWidth * 0.8;
-        loveMeter.style.width = `calc(100% + ${extraWidth}px)`;
-        loveMeter.style.transition = 'width 0.3s';
+        loveMeter.style.width = '100%';
         
         // Show different messages based on the value
         if (value >= 5000) {
@@ -171,7 +167,6 @@ loveMeter.addEventListener('input', () => {
 
 // Initialize love meter
 window.addEventListener('DOMContentLoaded', setInitialPosition);
-window.addEventListener('load', setInitialPosition);
 
 // Celebration function
 function celebrate() {
